@@ -5,6 +5,11 @@ A full-stack personal loan tracking application built with an Express + PostgreS
 The project helps users manage money they have lent to friends or family, track repayment status, and keep loan receipts attached to each record.
 
 ## Demo Video
+<div align="center"> 
+<a href="https://www.youtube.com/shorts/0Tzte6LvDc0"> 
+<img src="https://img.youtube.com/vi/0Tzte6LvDc0/0.jpg" alt="Project Demo Video" width="600"> 
+</a> 
+</div>
 
 - Watch the project demo: [YouTube Demo Video](https://www.youtube.com/shorts/0Tzte6LvDc0)
 
