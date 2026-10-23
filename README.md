@@ -94,7 +94,18 @@ This starts:
 - PostgreSQL on `localhost:5432`
 - The backend API on `http://localhost:5000`
 
-### 2) Run the mobile app
+### 2) Configure Mobile App API Endpoint
+
+To test the mobile app on a physical device or emulator using Expo Go, point your API client to your computer's local network IP address.
+
+1. Open Command Prompt (CMD) and run `ipconfig` to find your computer's **IPv4 Address** (e.g., `192.168.0.102`).
+2. Open `mob/src/constants/api.ts` and set your IP address:
+
+```typescript
+export const API_URL = "http://192.168.0.102:5000";
+```
+
+### 3) Run the mobile app
 
 Open a terminal in `mob/` and install dependencies:
 
@@ -106,7 +117,7 @@ npm start
 
 Then launch the app in a simulator, emulator, or Expo Go.
 
-### 3) Run backend directly without Docker
+### 4) Run backend directly without Docker
 
 ```bash
 cd backend
